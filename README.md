@@ -42,7 +42,3 @@ Apaixonado por esportes — acompanho Corinthians, Arsenal, Milan e os times de 
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/SEU_USUARIO)
 [![Email](https://img.shields.io/badge/-Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:seu@email.com)
-
----
-
-*"Transformando dados em decisões."*
