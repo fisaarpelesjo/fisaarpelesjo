@@ -36,9 +36,19 @@ Sou **Data Analyst** na [NoPing](https://www.noping.com), especializado em arqui
 
 ## ⚽ Fora do código
 
-Apaixonado por esportes — acompanho Corinthians, Arsenal, Milan e os times de Boston (Red Sox, Celtics, Bruins e Patriots).
+Formado em Educação Física antes de migrar para tech — esportes sempre fizeram parte da minha vida:
+
+<p>
+  <img src="https://upload.wikimedia.org/wikipedia/pt/b/b4/Corinthians_simbolo.png" width="30" title="Corinthians">
+  <img src="https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg" width="30" title="Arsenal">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg" width="25" title="Milan">
+  <img src="https://a.espncdn.com/i/teamlogos/mlb/500/bos.png" width="40" title="Red Sox">
+  <img src="https://a.espncdn.com/i/teamlogos/nba/500/bos.png" width="40" title="Celtics">
+  <img src="https://a.espncdn.com/i/teamlogos/nhl/500/bos.png" width="40" title="Bruins">
+  <img src="https://a.espncdn.com/i/teamlogos/nfl/500/ne.png" width="50" title="Patriots">
+</p>
 
 ## 📫 Contato
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/SEU_USUARIO)
-[![Email](https://img.shields.io/badge/-Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:seu@email.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fisaarpelesjo/)
+[![Email](https://img.shields.io/badge/-Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:filipesalesaraujo@gmail.com)
