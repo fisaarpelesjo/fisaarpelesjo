@@ -1,4 +1,4 @@
-# Olá! 👋
+# Olá! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">
 
 Sou **Data Analyst** na [NoPing](https://www.noping.com), especializado em arquiteturas analíticas de larga escala para otimização de latência em gaming.
 
