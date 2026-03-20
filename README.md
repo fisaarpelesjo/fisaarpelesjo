@@ -51,4 +51,5 @@ Formado em Educação Física antes de migrar para tech — esportes sempre fize
 ## 📫 Contato
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fisaarpelesjo/)
+[![Kaggle](https://img.shields.io/badge/-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/fisaar)
 [![Email](https://img.shields.io/badge/-Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:filipesalesaraujo@gmail.com)
