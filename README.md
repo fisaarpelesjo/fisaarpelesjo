@@ -19,7 +19,10 @@ I follow the data from source to decision. From Electron renderer to IPC to Clou
 | **33x** | Found a bug silently inflating core business metrics by 33x |
 | **83 GB → incremental** | Rewrote full-scan queries to incremental loads |
 | **19h → 1h19min** | Reduced BigQuery slot time by ~93% |
-| **20+ tables · 30+ dashboards** | Built complete star schema, materialized views, and BI layer from scratch in under a year |
+| **20+ BigQuery tables · 6 report pages** | Full analytical model across 5 business domains — trials, sales, revenue, clients/churn, and marketing — with dependency-ordered scheduled queries (01:00 → 05:00 UTC) and 30+ DAX measures |
+| **61-month cohort retention** | Built cohort curves tracking user retention from month 0 to month 60, segmented by acquisition plan and top game |
+| **End-to-end attribution** | Last-touch model with 30-day window covering CAC, LTV, ROAS, CPT, CPC, CTR, CPM — from Google Ads spend to subscription revenue |
+| **Behavioral email segmentation** | 4 automated pipelines classifying churned trial users by behavior: played vs. didn't play vs. never opened the app |
 | **Full ELT from desktop to cloud** | Designed the entire pipeline: Electron app (TypeScript) → sandboxed IPC → main process enrichment → secured Cloud Run endpoint (Go) → BigQuery streaming insert. Events enriched in real-time with geolocation, OS fingerprinting, and hardware telemetry |
 | **Per-session hardware telemetry** | Each gaming session records RTT, packet loss, bridge routing, CPU/GPU usage, CPU/GPU temps, and RAM — correlated with ping improvement and ISP data |
 | **12-phase user funnel** | Instrumented the full user journey across 9 BigQuery tables: boot → auth → connection → 8 feature screens, with session stitching via hardware fingerprint |
