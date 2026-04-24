@@ -10,7 +10,7 @@ Six years building software. One year in data. The transition was natural — I 
 
 I follow the data from source to decision. From Electron renderer to IPC to Cloud Run to BigQuery streaming insert — I built and own every layer of the stack.
 
-**Currently:** connecting behavioral trial data (played, opened, never connected) to subscription outcomes — building the signal layer for churn prediction.
+**Currently:** designing a GA4 → BigQuery → Power BI pipeline for blog analytics — schema definition, event modeling, and content performance dashboards.
 
 ---
 
