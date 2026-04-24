@@ -14,7 +14,7 @@ I follow the data from source to decision. From Electron renderer to IPC to Clou
 
 ## Wins that matter
 
-| | |
+| Impact | What I did |
 |---|---|
 | **33x** | Found a bug silently inflating core business metrics by 33x |
 | **83 GB → incremental** | Rewrote full-scan queries to incremental loads |
@@ -32,19 +32,6 @@ I follow the data from source to decision. From Electron renderer to IPC to Clou
 
 ![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat-square&logo=google-cloud&logoColor=white) ![Dataform](https://img.shields.io/badge/Dataform-4285F4?style=flat-square&logo=google-cloud&logoColor=white) ![Cloud Run](https://img.shields.io/badge/Cloud%20Run-4285F4?style=flat-square&logo=google-cloud&logoColor=white) ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white) ![GA4](https://img.shields.io/badge/GA4-E37400?style=flat-square&logo=google-analytics&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-</div>
-
----
-
-## GitHub
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=fisaarpelesjo&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fisaarpelesjo&layout=compact&langs_count=7&theme=tokyonight&hide_border=true"/>
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=fisaarpelesjo&theme=tokyonight&hide_border=true" />
 </div>
 
 ---
