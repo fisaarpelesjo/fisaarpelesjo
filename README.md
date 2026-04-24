@@ -10,7 +10,7 @@ Six years building software. One year in data. The transition was natural — I 
 
 I follow the data from source to decision. From Electron renderer to IPC to Cloud Run to BigQuery streaming insert — I built and own every layer of the stack.
 
-**Currently:** designing a GA4 → BigQuery → Power BI pipeline for blog analytics — schema definition, event modeling, and content performance dashboards.
+**Currently:** building a GA4 BigQuery Export → scheduled SQL transforms → Power BI semantic model — defining event taxonomy, analytical schema, and content performance KPIs.
 
 ---
 
