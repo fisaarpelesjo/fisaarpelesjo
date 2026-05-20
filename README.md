@@ -1,16 +1,16 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Analytics+Engineer;6+years+in+software.+1+year+in+data.;From+back-end+to+pipeline+to+dashboard.;I+follow+the+data+from+source+to+decision." alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=Analytics+Engineer;6+years+in+software.+Now+building+BI+systems.;From+back-end+events+to+Power+BI+decisions.;I+turn+messy+tracking+into+trusted+metrics." alt="Typing SVG" />
 
 </div>
 
 ---
 
-Six years building software. One year in data. The transition was natural — I always cared more about what the data was saying than the screen displaying it.
+Six years building software. Now focused on Business Intelligence, analytics engineering, and data quality for SaaS products. The transition was natural — I always cared more about what the data was saying than the screen displaying it.
 
-I follow the data from source to decision. From Electron renderer to IPC to Cloud Run to BigQuery streaming insert — I built and own every layer of the stack.
+I follow the data from source to decision: backend events, GA4 exports, tracking pipelines, BigQuery models, scheduled SQL transforms, Power BI semantic layers, and stakeholder-ready diagnostics.
 
-**Currently:** building a GA4 BigQuery Export → scheduled SQL transforms → Power BI semantic model — defining event taxonomy, analytical schema, and content performance KPIs.
+**Currently:** building and maintaining the NoPing BI platform — raw backend/GA4 sources, `noping_web` analytical tables, dependency-ordered scheduled queries, a versioned Power BI semantic model, dashboards, funnel analysis, revenue/client cohorts, marketing performance, software usage, and CRM automation datasets.
 
 ---
 
@@ -18,13 +18,23 @@ I follow the data from source to decision. From Electron renderer to IPC to Clou
 
 | Impact | What I did |
 |---|---|
+| **BI platform ownership** | Maintain the NoPing analytics stack from raw backend/GA4 sources to BigQuery `tbl_*` tables, scheduled SQL, Power BI TMDL semantic model, and report pages |
+| **19 active analytical tables** | Organized the warehouse into domain tables for trials, sales, revenue, clients/churn, marketing, software performance, access type, page views, and devices |
+| **6-page Power BI report** | Built and documented a version-controlled `.pbip` report with Revenue, Trials, Sales, Clients, Software, and Marketing pages, backed by TMDL, JSON visuals, DAX measures, relationships, parameters, and bookmarks |
+| **Data warehouse cleanup** | Migrated analytics tables from `noping_analytics` to `noping_web`, removed 20 orphaned `tbl_*` tables, deleted an unused latency schedule/table, and documented destructive BigQuery actions in changelog |
+| **CRM automation datasets** | Built incremental email-segmentation tables for expired trials and monthly-plan users: played, logged but did not play, never opened the app, and did not renew |
+| **Visit → Register root cause** | Proved a reported funnel collapse was a BI artifact, not a product regression — GA4 trial tracking stopped, the visits denominator moved to backend tracking, and real trials stayed stable at ~800-900/day |
+| **GA4 visibility gap** | Cross-checked GA4 with backend events and found that traffic in GCC/Asia was still arriving while GA4 was being filtered or blocked; recommended backend as the source of truth |
+| **215x backend/GA4 gap** | Found China was almost invisible in GA4 (3 GA4 visits vs 645 backend visits/week), revealing real traffic hidden from dashboards |
+| **China conversion diagnosis** | Investigated low CN registration conversion with BigQuery, VPN tests, backend review, and temporal analysis; identified Cloudflare Turnstile friction plus residential bot/proxy traffic as the main drivers |
+| **Tracking data quality** | Mapped backend visit dedup (`md5(ip+userAgent)`, 24h TTL), validated it empirically, and documented where bots, race conditions, prefetch, and missing user/session IDs still distort metrics |
+| **Timezone bug found** | Discovered `trial_page_visits.inserted_at` was saved as BRT but interpreted as UTC by BigQuery, affecting temporal analysis and monitoring |
 | **33x** | Found a bug silently inflating core business metrics by 33x |
 | **83 GB → incremental** | Rewrote full-scan queries to incremental loads |
 | **19h → 1h19min** | Reduced BigQuery slot time by ~93% |
-| **20+ BigQuery tables · 6 report pages** | Full analytical model across 5 business domains — trials, sales, revenue, clients/churn, and marketing — with dependency-ordered scheduled queries (01:00 → 05:00 UTC) and 30+ DAX measures |
+| **Dependency-ordered ETL** | Scheduled BigQuery refreshes across business domains with explicit dependencies, including revenue before clients/LTV and software overview before cross-usage |
 | **61-month cohort retention** | Built cohort curves tracking user retention from month 0 to month 60, segmented by acquisition plan and top game |
 | **End-to-end attribution** | Last-touch model with 30-day window covering CAC, LTV, ROAS, CPT, CPC, CTR, CPM — from Google Ads spend to subscription revenue |
-| **Behavioral email segmentation** | 4 automated pipelines classifying churned trial users by behavior: played vs. didn't play vs. never opened the app |
 | **Full ELT from desktop to cloud** | Designed the entire pipeline: Electron app (TypeScript) → sandboxed IPC → main process enrichment → secured Cloud Run endpoint (Go) → BigQuery streaming insert. Events enriched in real-time with geolocation, OS fingerprinting, and hardware telemetry |
 | **Per-session hardware telemetry** | Each gaming session records RTT, packet loss, bridge routing, CPU/GPU usage, CPU/GPU temps, and RAM — correlated with ping improvement and ISP data |
 | **12-phase user funnel** | Instrumented the full user journey across 9 BigQuery tables: boot → auth → connection → 8 feature screens, with session stitching via hardware fingerprint |
@@ -42,28 +52,6 @@ I follow the data from source to decision. From Electron renderer to IPC to Clou
 `Dev` &nbsp; ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 </div>
-
----
-
-## Off the keyboard
-
-Physical Education graduate turned software engineer — systematic thinking came from sports.
-
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/pt/b/b4/Corinthians_simbolo.png" width="30" title="Corinthians">
-  &nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg" width="30" title="Arsenal">
-  &nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg" width="25" title="Milan">
-  &nbsp;
-  <img src="https://a.espncdn.com/i/teamlogos/mlb/500/bos.png" width="40" title="Red Sox">
-  &nbsp;
-  <img src="https://a.espncdn.com/i/teamlogos/nba/500/bos.png" width="40" title="Celtics">
-  &nbsp;
-  <img src="https://a.espncdn.com/i/teamlogos/nhl/500/bos.png" width="40" title="Bruins">
-  &nbsp;
-  <img src="https://a.espncdn.com/i/teamlogos/nfl/500/ne.png" width="50" title="Patriots">
-</p>
 
 ---
 
