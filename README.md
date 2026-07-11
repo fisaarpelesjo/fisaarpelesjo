@@ -15,5 +15,3 @@ Principais entregas técnicas:
 → Performance: migração de views para scheduled queries, incremental queries, otimização SQL — slot time de 19h → 1h19min, redução de custo, bug encontrado inflando métricas em 33x
 
 Stack: Python · Claude API · LLMs · Agents · TypeScript · React · Next.js · Node.js · Go · Electron · BigQuery · SQL · Power BI · DAX · TMDL · PBIP · GA4 · Google Ads · GCP · Cloud Run · MySQL · ETL · ELT · data modeling · semantic modeling · data quality · data validation · analytics engineering · Git
-
-📧 filipesalesaraujo@gmail.com
